@@ -82,6 +82,10 @@
 | `Read` | `ctx_execute_file` | File >100 lines, need specific info |
 | `WebFetch` | `ctx_fetch_and_index` | External docs/URLs |
 
+## GitHub / Vercel Deployment
+- The repo is connected to Vercel — every push to `main` deploys to the live website automatically
+- **Always ask for explicit permission before running `git push`** — never push without confirmation
+
 ## Hard Rules
 - Do not use `transition-all`
 - Do not load Tailwind CDN
